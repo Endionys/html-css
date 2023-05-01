@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+    color: #F6F6F6;
+    font-family: 'Krona One';
+    font-size: larger;
+    height: 100vh;
+    box-sizing: border-box;
+}
+strong{ 
+    color:#22D4FD;
+    padding: 1px;
+    font-size: 38;
+   
+    
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20% 10%;
+
+}
+.apresentacao__conteudo{
+    width: 750px;
+    font-size: 20px;
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+
+}
+.apresentacao__titulo{
+    font-size: 40px;
+}
+.apresentacao__texto{
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.apresentacao__aa{
+    background-color: #22D4FD;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 34px;
+    font-weight: 520;
+    padding: 15.5px 0;
+    color: black;
+    text-decoration: none;
+
+}
+.botoes{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    flex-direction: column;
+    font-family: 'kanit', sans-serif;
+
+}
+.apresentacao__aa:hover {
+    color:rgb(173, 68, 147)
+
+}
+.apresentacao__aa::after{
+    content: '☑';
+    color: rgba(46, 110, 73, 0.925);
+    font-size: 33px;
+}
+.imagem{
+
+    box-shadow: 10px 15px #cf8e4c
+}
